@@ -3,188 +3,183 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Khaled Al-Ansari
+    tagline: Software Development Engineer
+    avatar: me.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: khaledelansari@gmail.com
+    phone: +962 79 6789 911
+    website: khaledelansari.com #do not add http://
+    linkedin: khaledelansari
+    github: khaledelansari
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter: # '@khaledelansari'
+    stack-overflow: "4341572" # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Arabic
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Game Design
         link:
 
-      - item: Snowboarding
+      - item: Software Engineering
         link:
 
-      - item: Cooking
+      - item: Teaching Others
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Just another software engineer based in Amman/Jordan, always trying to enhance my knowledge regarding web apps and APIs to bring the best I can to the apps I work on.
+
+      I'm Interested in many topics including Game Development, distributed systems, team management and more.
+
+      To describe myself in a simpler way, I'm that kind of engineer who's not afraid of new challenges.
 education:
     - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+      university: Princess Sumaya University for Technology
+      time: 2016 - 2020
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        My study was about computer science in general where I took many topics trying to cover multiple aspects of computer science
+        where I focused on connecting the theoretical knowledge I received with my experience in software engineering to enhance my understanding
+        of the tech environments I interact with in order to get a better implementation in the future during my career.
+        Some of the topics I covered includes:
+          - Advanced Databases
+          - Data Mining
+          - Cloud Computing
+          - Software Development Security
+          - Advanced Operating Systems
+          - Algorithms
+          - A.I.
+          - Computer Security
+          - Wireless Networking
+    - degree: BSc in Computer Graphics & Animation
+      university: Princess Sumaya University for Technology
+      time: 2010 - 2014
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+         Our courses (mostly) were between understanding the computer science theories about the computer graphics and the artistic side of it.
+         I was trying to focus on the programming side while I was in college to be able to develop video games one day (as I hope).
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Software Development Engineer
+      time: 2018 - Present
+      company: Amazon, Amman
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Worked on releasing Amazon.ae and Amazon.sa as a successor for Souq.com in UAE & KSA where my team worked
+        on the reverse logistics tech, from the first step till the last one, to help customers return any item they purchased,
+        no matter what is the reason, based on Amazon return policies.
+
+        As an SDE my work is around, but not limited to, the following:
+        - Delivering an RTL version of the current UI for the Arabic users
+        - Converting the business needs into a reality by working with the PMs and TPMs on the requirements side by side
+        - Collecting information and matching between different teams to reach the desired output
+        - Providing the management a clear details about the tech stack for a better planning
+        - Cooperating with other colleagues to deliver the final product
+        - Writing unit tests and working with the QA team to make sure everything is up and running correctly
+        - Fixing issues and enhancing the code base to make it more suitable for UAE needs
+
+        Also I have other responsibilities, but voluntarily, like:
+        - Interviewing software development candidates
+        - Reviewing apps as a security reviewer
+        - Guide interns and help them to achieve their goals
+    - role: Front End Engineer
+      time: 2017 - 2018
+      company: Souq.com, Amman
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+          Souq.com was the best and the most known e-commerce website in the Arab countries which later got acquired by Amazon.
+
+          My tasks were about, but not limited to, the following:
+          - Working side by side with back-end engineers to make sure the front-end app reflects the vision of the services
+          - Working closely to the UI/UX designer to make the best interface that could possibly be
+          - Understanding the business needs with the help of the Product Managers and reporting any issue or misunderstanding to avoid delays
+          - Maintaining the existing projects to guarantee continuity
+          - Keeping an eye on latest technologies to see any possible update that can implemented on current projects
+
+    - role: Front End Engineer
+      time: 2016 - 2017
+      company: POSRocket, Amman
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+         The first cloud-based POS system in the region, it helps small to medium businesses organize their work more professionally.
+
+    - role: Front End Engineer
+      time: 2015 - 2016
+      company: Red Troops, Amman
+      details: |
+         Redtroops was providing a white-labelled, self-serve advertising platform alongside with a web-based ad building tool to make it easy for you to design ads and publish them on the web or mobile systems.
+
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      During my career I contributed to many projects as an IC (individual contributer) in a different way based on the project, below you will find some of my main contribution so far.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Amazon.ae/Amazon.sa Returns
+        link: 
+        tagline: |
+          I was part of the team that worked on the reverse logistics tech, from the first step till the last one, to help customers return any item they purchased, no matter what is the reason, based on Amazon return policies.
+          I lead some critical parts of the returns technologies including the exports returns for purchases from outside UAE.
+      
+      - title: Souq's Seller Search
+        link: 
+        tagline: | 
+          A full search web portal to help sellers search for new items to add it to their stock based on the data we aggregate and provide.
+          I owned the UI from scratch where I was the connection point in a team of a UX/UI designer, Backend Engineers, Product Manager, and Quality Engieers.
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      During my masters study I worked on some humble research as a contribution to the topics I had interest in, all of my research is published on my ResearchGate page.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "Security Awareness In The Age Of Cloud Computing: An Extensive Review On The Cloud Computing Security"
+        link: "https://www.researchgate.net/publication/343686054_Security_Awareness_In_The_Age_Of_Cloud_Computing_An_Extensive_Review_On_The_Cloud_Computing_Security"
+        authors: Khaled Al-Ansari
+        conference: Jun, 2020
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Multiple IoT Devices Management Solutions-A Survey"
+        link: "https://www.researchgate.net/publication/343686055_Multiple_IoT_Devices_Management_Solutions-A_Survey"
+        authors: Khaled Al-Ansari
+        conference: Jan, 2020
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Survey on Word Embedding Techniques in Natural Language Processing"
+        link: "https://www.researchgate.net/publication/343686323_Survey_on_Word_Embedding_Techniques_in_Natural_Language_Processing"
+        authors: Khaled Al-Ansari
+        conference: May, 2019
 
 skills:
-    title: Skills &amp; Proficiency
+    # title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+    # toolset:
+    #   - name: JavaScript
+    #     level: 95%
 
-      - name: Javascript & jQuery
-        level: 98%
+    #   - name: Java
+    #     level: 80%
 
-      - name: Angular
-        level: 98%
+    #   - name: Angular
+    #     level: 95%
 
-      - name: HTML5 & CSS
-        level: 95%
+    #   - name: HTML5 & CSS
+    #     level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+    #   - name: Ruby on Rails
+    #     level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+    #   - name: Sketch & Photoshop
+    #     level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
